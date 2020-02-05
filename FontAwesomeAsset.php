@@ -17,7 +17,7 @@ use yii\web\AssetBundle;
  */
 class FontAwesomeAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/font-awesome/js';
+    public $sourcePath = '@vendor/fortawesome/font-awesome/js';
 
     public $js = [
         'all.min.js',
